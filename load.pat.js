@@ -36,10 +36,11 @@ window.onload = function(){
 }
 var load = {
     loading : function(){
-        var el     = document.createElement("div"),
-        coverel    = document.createElement("div");
-        el.id      = "loading";
-        coverel.id = "coverel";
+        var el       = document.createElement("div"),
+        coverel      = document.createElement("div");
+        el.id        = "loading";
+        el.style.top = "20%";
+        coverel.id   = "coverel";
         document.body.appendChild(el);
         document.body.appendChild(coverel);
         if (!+[1,]) { 
